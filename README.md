@@ -17,7 +17,17 @@ cd clover-miner-docker
 ./build.sh
 ```
 
-then run this in as many threads as it takes to nearly saturate your cpu:
+then run this to start mining clovers:
 ```
 ./run.sh
+```
+
+you can also run multiple threads with:
+```
+./threads.sh 8
+```
+
+once clovers start to get mined you can view them on port `8000` if you run:
+```
+./server.sh
 ```
