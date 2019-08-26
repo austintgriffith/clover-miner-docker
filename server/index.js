@@ -51,7 +51,7 @@ app.get('/', (req, res) => {
     }
     clovers += "</div>"
 
-    res.send('<html><body><b>Hello World!</b>'+clovers+'</body></html>')
+    res.send('<html><body>'+clovers+'</body></html>')
   });
 
 
