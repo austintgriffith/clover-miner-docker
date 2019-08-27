@@ -1,4 +1,8 @@
 
+Intro video:
+(https://www.youtube.com/watch?v=u8DaFlc4cUg)[https://www.youtube.com/watch?v=u8DaFlc4cUg&feature=youtu.be]
+
+
 Spin up a typical Amazon Linux 2 AMI (HVM) AWS instance and run:
 
 ```bash
