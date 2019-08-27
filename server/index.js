@@ -8,13 +8,10 @@ const CLOVERSIZE = 150
 const PERROW = 5
 const LIMIT = 99999
 
-let moves = "c4e3f6c6e2b3d6e6b6f3a2d1e1b4d3b2g3b7f4a6c2b1c1d2c5g2g4f2h1f1a4g5c7g1a5e7a7c3a1b5h2d7d8f5h6h5g6e8f7h7f8h4h3g8h8c8a3b8g7a8"
+let moves = ""
 
 app.get('/', (req, res) => {
-
-
-
-  var dir = 'clovers/';
+  var dir = '../clovers/';
 
   fs.readdir(dir, function(err, files){
     files = files.map(function (fileName) {
